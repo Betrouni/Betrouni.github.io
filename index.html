@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="Stylesheet" href="assets/style.css" />
+    <script
+      src="https://kit.fontawesome.com/f4f37f4275.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="loader"><div class="spinner"></div></div>
+    <header>
+      <img
+        alt="Plat d'un menu au restaurant"
+        class="ohmyfood"
+        src="assets/images/logo/ohmyfood.png"
+      />
+      <div id="localisation">
+        <i class="fa-solid fa-location-dot icon"></i>
+        <h3>Paris,Belleville</h3>
+      </div>
+    </header>
+    <div class="reservation">
+      <h2>Réservez le menu qui vous convient</h2>
+      <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
+      <div class="reservation-button">
+        <h4>Explorer nos restaurants</h4>
+      </div>
+    </div>
+
+    <div id="fonctionnement">
+      <h2>Fonctionnement</h2>
+
+      <div id="etapes">
+        <div class="etape">
+          <i class="fa-solid fa-mobile-screen-button icon"></i>
+          <p>Choisissez un restaurant</p>
+          <div class="pastille"><span>1</span></div>
+        </div>
+        <div class="etape">
+          <i class="fa-solid fa-list-ul icon"></i>
+          <p>Composez votre menu</p>
+          <div class="pastille"><span>2</span></div>
+        </div>
+        <div class="etape">
+          <i class="fa-solid fa-store icon"></i>
+          <p>Dégustez au restaurant</p>
+          <div class="pastille"><span>3</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="restaurants">
+      <h2>Restaurants</h2>
+      <div class="restau-card">
+        <img
+          onclick="location.href='./menu-3.html';"
+          src="assets/images/restaurants/1.jpg"
+          class="restau-card-img"
+          alt=""
+        />
+        <span>Nouveau</span>
+        <div class="restau-card-description">
+          <div class="restau-card-txt">
+            <h4>La palette du goût</h4>
+            <p>Ménilmontant</p>
+          </div>
+          <div class="restau-card-icon">
+            <i class="fa-solid fa-heart heart-hidded"></i>
+            <i class="far fa-heart heart"></i>
+          </div>
+        </div>
+      </div>
+      <div class="restau-card">
+        <img
+          onclick="location.href='./menu-2.html';"
+          src="assets/images/restaurants/2.jpg"
+          class="restau-card-img"
+          alt=""
+        />
+        <span>Nouveau</span>
+        <div class="restau-card-description">
+          <div class="restau-card-txt">
+            <h4>La note enchantée</h4>
+            <p>Cité rouge</p>
+          </div>
+          <div class="restau-card-icon">
+            <i class="far fa-heart heart"></i>
+            <i class="fa-solid fa-heart heart-hidded"></i>
+          </div>
+        </div>
+      </div>
+      <div class="restau-card">
+        <img
+          onclick="location.href='./menu-1.html';"
+          src="assets/images/restaurants/3.jpg"
+          class="restau-card-img"
+          alt=""
+        />
+        <span>Nouveau</span>
+        <div class="restau-card-description">
+          <div class="restau-card-txt">
+            <h4>À la française</h4>
+            <p>Cité rouge</p>
+          </div>
+          <div class="restau-card-icon">
+            <i class="far fa-heart heart"></i>
+            <i class="fa-solid fa-heart heart-hidded"></i>
+          </div>
+        </div>
+      </div>
+      <div class="restau-card">
+        <img
+          onclick="location.href='./menu-4.html';"
+          src="assets/images/restaurants/4.jpg"
+          class="restau-card-img"
+          alt=""
+        />
+        <span>Nouveau</span>
+        <div class="restau-card-description">
+          <div class="restau-card-txt">
+            <h4>Le délice des sens</h4>
+            <p>Folie-Méricourt</p>
+          </div>
+          <div class="restau-card-icon">
+            <i class="far fa-heart heart"></i>
+            <i class="fa-solid fa-heart heart-hidded"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <h4>ohmyfood</h4>
+      <div class="phrase">
+        <i class="fa-solid fa-utensils footer-icon"></i>
+        <p>Proposer un restaurant</p>
+      </div>
+      <div class="phrase">
+        <i class="fa-solid fa-handshake-angle footer-icon"></i>
+        <p>Devenir partenaire</p>
+      </div>
+      <p class="footer-p">Mentions légales</p>
+      <a class="footer-p contact" href="mailto:abc@example.com">Contact</a>
+    </footer>
+  </body>
+</html>
